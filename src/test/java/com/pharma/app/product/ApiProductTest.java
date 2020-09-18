@@ -52,7 +52,7 @@ public class ApiProductTest {
                 .andExpect(jsonPath("$.data.id").value(2))
                 .andExpect(jsonPath("$.data.name").value("EFFERALGAN"))
                 .andExpect(jsonPath("$.data.code").value("000002"))
-                .andExpect(jsonPath("$.data.validityDate").value("20-09-2020"))
+                .andExpect(jsonPath("$.data.validityDate").value("19-09-2020"))
                 .andExpect(jsonPath("$.data.price").value(2000.00));
     }
     @Test
@@ -72,7 +72,7 @@ public class ApiProductTest {
                 .andExpect(jsonPath("$.data.id").value(2))
                 .andExpect(jsonPath("$.data.name").value("EFFERALGAN"))
                 .andExpect(jsonPath("$.data.code").value("000002"))
-                .andExpect(jsonPath("$.data.validityDate").value("20-09-2020"))
+                .andExpect(jsonPath("$.data.validityDate").value("19-09-2020"))
                 .andExpect(jsonPath("$.data.price").value(2000.00));
     }
 
